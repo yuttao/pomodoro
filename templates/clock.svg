@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xml:space="preserve"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg830"
+   sodipodi:docname="clock.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+   id="defs834">
+    <filter
+   y="-0.27272727"
+   height="1.5454545"
+   inkscape:menu-tooltip="Darkens the edge with an inner blur and adds a flexible glow"
+   inkscape:menu="Shadows and Glows"
+   inkscape:label="Dark and Glow"
+   style="color-interpolation-filters:sRGB;"
+   id="filter926"
+   x="-0.27272727"
+   width="1.5454545">
+      <feGaussianBlur
+   stdDeviation="5"
+   result="result6"
+   id="feGaussianBlur916" />
+      <feComposite
+   result="result8"
+   in="SourceGraphic"
+   operator="atop"
+   in2="result6"
+   id="feComposite918" />
+      <feComposite
+   result="result9"
+   operator="over"
+   in2="SourceAlpha"
+   in="result8"
+   id="feComposite920" />
+      <feColorMatrix
+   values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+   result="result10"
+   id="feColorMatrix922" />
+      <feBlend
+   in="result10"
+   mode="normal"
+   in2="result6"
+   id="feBlend924" />
+    </filter>
+    <filter
+   style="color-interpolation-filters:sRGB;"
+   inkscape:label="Drop Shadow"
+   id="filter968"
+   x="-11.861303"
+   y="-11.861303"
+   width="25.038396"
+   height="25.038396">
+      <feFlood
+   flood-opacity="0.498039"
+   flood-color="rgb(0,0,0)"
+   result="flood"
+   id="feFlood958" />
+      <feComposite
+   in="flood"
+   in2="SourceGraphic"
+   operator="in"
+   result="composite1"
+   id="feComposite960" />
+      <feGaussianBlur
+   in="composite1"
+   stdDeviation="64.2643"
+   result="blur"
+   id="feGaussianBlur962" />
+      <feOffset
+   dx="6"
+   dy="6"
+   result="offset"
+   id="feOffset964" />
+      <feComposite
+   in="SourceGraphic"
+   in2="offset"
+   operator="over"
+   result="fbSourceGraphic"
+   id="feComposite966" />
+      <feColorMatrix
+   result="fbSourceGraphicAlpha"
+   in="fbSourceGraphic"
+   values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+   id="feColorMatrix988" />
+      <feFlood
+   id="feFlood990"
+   flood-opacity="0.498039"
+   flood-color="rgb(0,0,0)"
+   result="flood"
+   in="fbSourceGraphic" />
+      <feComposite
+   in2="fbSourceGraphic"
+   id="feComposite992"
+   in="flood"
+   operator="in"
+   result="composite1" />
+      <feGaussianBlur
+   id="feGaussianBlur994"
+   in="composite1"
+   stdDeviation="123.123"
+   result="blur" />
+      <feOffset
+   id="feOffset996"
+   dx="6"
+   dy="6"
+   result="offset" />
+      <feComposite
+   in2="offset"
+   id="feComposite998"
+   in="fbSourceGraphic"
+   operator="over"
+   result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+   id="namedview832"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="10.5"
+   inkscape:cx="25"
+   inkscape:cy="25"
+   inkscape:window-width="1280"
+   inkscape:window-height="747"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg830" />
+  <circle
+   cx="25"
+   cy="25"
+   r="22"
+   filter="#f1"
+   fill="#c18a42"
+   fill-opacity="1"
+   id="circle824"
+   style="filter:url(#filter926)" />
+  <circle
+   cx="25"
+   cy="25"
+   r="19"
+   stroke="#bd2828"
+   stroke-width="2"
+   fill="#fcba61"
+   fill-opacity="0.8"
+   id="circle826" />
+  <text
+   x="50%"
+   y="50%"
+   text-anchor="middle"
+   fill="#872727"
+   stroke="#c41d1d"
+   font-weight="bold"
+   stroke-width=".2"
+   dy="8.7"
+   font-size="30"
+   font-family="STKaiti"
+   id="text828">相</text>ÍÍ
+</svg>
